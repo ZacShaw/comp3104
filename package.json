@@ -1,20 +1,37 @@
 {
-  "name": "comp3104",
+  "name": "node_eg",
   "version": "1.0.0",
-  "description": "",
+  "description": "Sampel app",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Warning: No tests created yet.\""
+    "test": "echo \"Warning: No test Created\"",
+    "dev": "nodemon ./index.js localhost 8082"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ZacShaw/comp3104.git"
+  "keywords": [
+    "sample",
+    "js",
+    "html",
+    "node",
+    "express",
+    "framework",
+    "sinatra",
+    "web",
+    "rest",
+    "restful",
+    "router",
+    "app",
+    "api"
+  ],
+  "author": {
+    "name": "Pritesh Patel",
+    "email": "sample@gb.ca"
   },
-  "keywords": [],
-  "author": "",
+  "homepage": "https://nodejs.org/",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ZacShaw/comp3104/issues"
+  "dependencies": {
+    "express": "^4.17.1"
   },
-  "homepage": "https://github.com/ZacShaw/comp3104#readme"
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
 }
